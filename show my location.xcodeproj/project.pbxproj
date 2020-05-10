@@ -13,6 +13,7 @@
 		931C90AD24689A75000C6AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931C90AB24689A75000C6AF9 /* Main.storyboard */; };
 		931C90AF24689A78000C6AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931C90AE24689A78000C6AF9 /* Assets.xcassets */; };
 		931C90B224689A78000C6AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931C90B024689A78000C6AF9 /* LaunchScreen.storyboard */; };
+		931C90BB2468A0E1000C6AF9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931C90BA2468A0E1000C6AF9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		931C90AE24689A78000C6AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931C90B124689A78000C6AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931C90B324689A78000C6AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931C90BA2468A0E1000C6AF9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931C90BB2468A0E1000C6AF9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				931C90A424689A75000C6AF9 /* show my location */,
 				931C90A324689A75000C6AF9 /* Products */,
+				931C90B92468A0E1000C6AF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				931C90B324689A78000C6AF9 /* Info.plist */,
 			);
 			path = "show my location";
+			sourceTree = "<group>";
+		};
+		931C90B92468A0E1000C6AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931C90BA2468A0E1000C6AF9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
